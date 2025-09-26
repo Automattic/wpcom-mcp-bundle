@@ -2,9 +2,10 @@
   "manifest_version": "0.2",
   "name": "wordpress-com-mcp",
   "version": "0.0.1",
-  "display_name": "WordPress.com MCP Tools",
+  "display_name": "WordPress.com",
   "description": "MCP server providing WordPress.com account and site management tools",
   "long_description": "A Model Context Protocol server that provides AI assistants with access to WordPress.com account management, site analytics, content operations, and user profile tools. This extension enables AI assistants to help users manage their WordPress.com sites, analyze site performance, search content, and access account information.",
+  "icon": "icon.png",
   "author": {
     "name": "Automattic",
     "email": "support@wordpress.com",

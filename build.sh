@@ -186,6 +186,7 @@ create_bundle() {
         dist/ \
         package.json \
         README.md \
+        icon.png \
         -x "*.log" \
         -x "*.git*" \
         -x "build.sh" \
