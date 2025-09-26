@@ -173,7 +173,7 @@ test_server() {
 create_bundle() {
     log_info "Creating optimized MCPB bundle..."
 
-    local bundle_name="wpcom-mcp-tools.mcpb"
+    local bundle_name="wordpress-com-mcp.mcpb"
 
     # Remove existing bundle
     if [ -f "$bundle_name" ]; then
@@ -282,7 +282,7 @@ main() {
     fi
 
     log_success "Build completed successfully!"
-    log_info "You can now install wpcom-mcp-tools.mcpb in Claude Desktop"
+    log_info "You can now install wordpress-com-mcp.mcpb in Claude Desktop"
 }
 
 # Run main function with all arguments

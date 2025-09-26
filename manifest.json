@@ -1,6 +1,6 @@
 {
   "manifest_version": "0.2",
-  "name": "wpcom-mcp-tools",
+  "name": "wordpress-com-mcp",
   "version": "0.0.1",
   "display_name": "WordPress.com MCP Tools",
   "description": "MCP server providing WordPress.com account and site management tools",
