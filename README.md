@@ -13,14 +13,13 @@ This bundle connects AI assistants like Claude Desktop to WordPress.com, enablin
 
 ## Installation
 
-1. Download the `.mcpb` file
+1. Download the [MCPB file](https://github.com/Automattic/wpcom-mcp-bundle/raw/refs/heads/trunk/wordpress-com-mcp.mcpb)
 2. Double-click to install in Claude Desktop
 3. Configure settings as needed
 
 ## Configuration
 
-- **Log File Path** (optional): Where to save logs
-- **Log Level** (optional): `debug`, `info`, `warn`, or `error` (default: `info`)
+- **Log File Path** (optional): Specify the path to save logs; leave empty to disable logging.
 
 ## Usage Examples
 
@@ -34,16 +33,11 @@ Ask Claude things like:
 
 ### Build from source
 ```bash
-# Install dependencies
-npm install
-
-# Build the bundle
-./build.sh
+npm ci && npm run build
 ```
 
 ### Requirements
 - Node.js ≥18.0.0
-- npm
 
 ## License
 
