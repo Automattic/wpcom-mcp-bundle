@@ -26,25 +26,8 @@
     "api"
   ],
   "server": {
-    "type": "node",
-    "entry_point": "dist/index.js",
-    "mcp_config": {
-      "command": "node",
-      "args": ["${__dirname}/dist/index.js"],
-      "env": {
-        "NODE_ENV": "production",
-        "LOG_FILE": "${user_config.logFile}"
-      }
-    }
-  },
-  "user_config": {
-    "logFile": {
-      "type": "string",
-      "title": "Log File Path",
-      "description": "Path where MCP server logs will be saved (leave empty to disable file logging)",
-      "required": false,
-      "default": ""
-    }
+    "type": "url",
+    "url": "https://public-api.wordpress.com/wpcom/v2/mcp/v1"
   },
   "tools": [
     {
@@ -66,9 +49,6 @@
   ],
   "compatibility": {
     "claude_desktop": ">=0.13.37",
-    "platforms": ["darwin", "linux", "win32"],
-    "runtimes": {
-      "node": ">=18.0.0"
-    }
+    "platforms": ["darwin", "linux", "win32"]
   }
 }
